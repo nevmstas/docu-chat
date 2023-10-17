@@ -24,7 +24,7 @@ export default function Home() {
         Get started <ArrowRight className="ml-2 h-5 w-5" />
       </Link>
     </MaxWidthWrapper>
-    {/* {value proposition section} */}
+    {/* value proposition section */}
     <div>
       <div className="relative isolate">
         <div aria-hidden='true' className="pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
     </div>
 
-    {/* Feature secion */}
+    {/* Feature section */}
     <div className="mx-auto mb-32 mt-32 max-w-5xl sm:mt-56">
       <div className="mb-12 px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
