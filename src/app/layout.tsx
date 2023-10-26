@@ -1,13 +1,13 @@
 import { cn } from '@/lib/utils'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Noto_Sans } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
 
 import 'react-loading-skeleton/dist/skeleton.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Noto_Sans({ weight: "500", subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
